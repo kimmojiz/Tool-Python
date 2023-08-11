@@ -14,7 +14,7 @@ def sendMessage(channel_id):
     headers = {
         'authorization': config["token"]
     }, files = {
-        "file" : ("./save2.jpg", open("./save2.jpg", 'rb'))
+        "file" : ("./image.jpg", open("./image.jpg", 'rb'))
     })
 
 
